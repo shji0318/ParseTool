@@ -23,6 +23,7 @@ public class PlayerData
 [Serializable, XmlRoot("ArrayOfPlayerData")]
 public class PlayerDataLoader : ILoader<int,PlayerData>
 {
+    [XmlElement("PlayerData")]
     public List<PlayerData> _playerData = new List<PlayerData>();
 
     public Dictionary<int,PlayerData> MakeDic()

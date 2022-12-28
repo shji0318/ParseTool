@@ -12,6 +12,9 @@ public class DataManager : MonoBehaviour
     void Start()
     {
         Player = LoadXml<PlayerDataLoader, int, PlayerData>("PlayerData").MakeDic();
+
+        foreach (PlayerData p in Player.Values)
+            Debug.Log($"Job : {p.job} Name : {p.name} HP : {p.hp} MP : {p.mp}");
     }
 
     // Update is called once per frame

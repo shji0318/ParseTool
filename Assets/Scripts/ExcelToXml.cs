@@ -64,7 +64,7 @@ public static class ExcelToXml
     public static string ToXml<T>(T obj)
     {
         using (EncodingUTF8StringWriter sw = new EncodingUTF8StringWriter(new StringBuilder()))
-        {
+        {            
             XmlSerializer xs = new XmlSerializer(typeof(T));
             xs.Serialize(sw, obj);
             return sw.ToString();

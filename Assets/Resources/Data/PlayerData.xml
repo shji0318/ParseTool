@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPlayerData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlayerData job="1" name="Andy" hp="10" mp="10" />
+  <PlayerData job="2" name="Eddy" hp="10" mp="10" />
+  <PlayerData job="3" name="Jin" hp="10" mp="10" />
+  <PlayerData job="4" name="Xioyu" hp="10" mp="10" />
+  <PlayerData job="5" name="Paul" hp="10" mp="10" />
+</ArrayOfPlayerData>

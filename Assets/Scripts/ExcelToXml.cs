@@ -8,7 +8,7 @@ using UnityEngine;
 
 public static class ExcelToXml
 {
-    [MenuItem("Tools/ParseXml")]
+    [MenuItem("Tools/ParseXml")] // UnityEditor 상단에 항목 추가
     public static void ParseXml()
     {        
         PlayerDataParse();
